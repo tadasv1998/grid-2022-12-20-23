@@ -1,0 +1,222 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+.naw-container {
+    margin-bottom: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.buttons a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+ul.buttons {
+    display: flex;
+    gap: 32px;
+}
+li.buttons {
+    display: inline;
+}
+.buttons .demo {
+    color: #2F70FE;
+    border: solid 1px #2F70FE;
+    padding: 12px 23px;
+}
+.title-container {
+    background-color: #2F70FE;
+    width: 100%;
+    position: relative;
+}
+.title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    padding-top: 74px;
+    padding-bottom: 209px;
+}
+.main-title {
+    color: white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    max-width: 620px;
+    text-align: center;
+    margin: 0px;
+}
+.title-description {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 605px;
+    text-align: center;
+}
+.register-button {
+    color: white;
+    background-color: black;
+    padding: 16px 25px;
+    text-decoration: none;
+    display: block;
+}
+.left-img {
+    position: absolute;
+    bottom: 78px;
+    left: 53px;
+    filter: grayscale(1);
+}
+.right-img {
+    position: absolute;
+    right: 131px;
+    bottom: 117px;
+    filter: grayscale(1);
+}
+.information {
+    background-color:rgba(0, 255, 133, 0.08);
+
+}
+.information-title {
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+}
+.information-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 56px;
+    margin: 0 308px;
+    padding:  0  0 148px;
+}
+.information-first,
+.information-second,
+.information-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information-info {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+.group-1,
+.group-2,
+.group-3,
+.group-4,
+.group-5 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 110px;
+}
+.group-1 {
+    gap: 121px;
+    padding-left: 255px;
+    padding-right: 233px;
+}
+.group-2 {
+    gap: 207px;
+    padding-left: 213px;
+    padding-right: 230px;
+}
+.group-3 {
+    gap: 160px;
+    padding-right: 359px;
+    padding-left: 255px;
+}
+.group-4 {
+    gap: 255px;
+    padding-right: 230px;
+    padding-left: 262px;
+}
+.group-5 {
+    gap: 153px;
+    padding-left: 255px;
+    padding-right: 275px;
+    margin-bottom: 120px;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.content-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    margin: 0;
+}
+.content {
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+.content-button a {
+    text-decoration: none;
+    color: #2F70FE;
+    display: flex;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+.footer-container {
+    background-color: black;
+    color: white;
+    padding-top: 78px;
+    padding-left: 217px;
+    padding-right: 227px;
+    padding-bottom: 72px; 
+    white-space: nowrap;
+}
+.footer-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 128px;
+}
+.footer-buttons {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-buttons a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+}
+.footer-buttons li {
+    display: block;
+}
+.inicial {
+    display: flex;
+    gap: 434px;
+    padding-top: 57px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
